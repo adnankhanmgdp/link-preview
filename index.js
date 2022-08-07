@@ -49,9 +49,9 @@ function httpGet(theUrl)
                     class="card-img-top" alt="favicon/ico">
                 <hr>
                 <div class="card-body">
-                    <h5 class="card-title">`+res['title']+`</h5>
+                    <a style="text-decoration:none" href="`+res['url']+`"><h4 class="card-title">`+res['title']+`</h4></a>
                     <p class="card-text">`+res['description']+`</p>
-                    <p class="card-text text-secondary">`+res['url']+`</p>
+                    <a href="`+res['url']+`"><p class="card-text text-secondary">`+res['url']+`</p></a>
                 </div>
             </div>`;
             }
