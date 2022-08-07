@@ -44,7 +44,7 @@ function httpGet(theUrl)
                 res['image'] = 'https://w7.pngwing.com/pngs/136/286/png-transparent-blue-and-black-www-logo-computer-icons-website-favicon-world-wide-web-www-site-internet-icon-miscellaneous-label-text.png';
 
                 document.getElementById("result").innerHTML=`<div class="card w-50">
-                <img class="p-5 w-50" id="favi"
+                <img id="favi"
                     src="`+res['image']+`"
                     class="card-img-top" alt="favicon/ico">
                 <hr>
