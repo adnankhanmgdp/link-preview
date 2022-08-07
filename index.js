@@ -31,7 +31,7 @@ function validURL(str) {
 function httpGet(theUrl)
 {
     $.ajax({
-        url: "http://api.linkpreview.net",
+        url: "https://api.linkpreview.net",
         dataType: 'jsonp',
         data: {q: theUrl, key: '153ff2b028ab5304854c8759fcfd8908'},
         success: function (data) {
